@@ -7,12 +7,6 @@
   pointer-events: none;
 }
 
-@media only screen and (max-width: 767px) {
-  .App-logo {
-    height: 75px;
-  }
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-float infinite 3s ease-in-out;
@@ -50,4 +44,15 @@ ul {
   text-align: left;
   list-style: none;
   z-index: 1;
+  padding-left: 2rem;
+}
+
+@media only screen and (max-width: 767px) {
+  .App-logo {
+    height: 75px;
+  }
+
+  ul {
+    padding-left: 1rem;
+  }
 }
